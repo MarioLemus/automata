@@ -7,7 +7,8 @@
     "prompts": "^2.4.2"
   },
   "scripts": {
-    "dev": "ts-node ./index.ts"
+    "dev": "ts-node ./index.ts",
+    "lint": "standard --fix"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@types/prompts": "^2.0.14",
     "nodemon": "^2.0.16",
     "ts-node": "^10.7.0",
+    "tsconfig-paths": "^4.0.0",
     "typescript": "^4.6.4"
   }
 }
