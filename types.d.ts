@@ -1,4 +1,4 @@
-interface IAliasAndPath {
-  alias: string;
-  path: string;
+export interface IAliasAndPath {
+  alias: string
+  path: string
 }
